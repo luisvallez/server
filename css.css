@@ -100,6 +100,16 @@ h1 {
   justify-content: center;
   overflow: auto;
   scroll-behavior: smooth;
+  z-index: 2;
+}
+
+.atras {
+  pointer-events: none;
+  user-select: none;
+  margin-top: 75px;
+  margin-left: 50px;
+  z-index: 1;
+  position: fixed;
 }
 
 .info2 {
