@@ -13,9 +13,9 @@ document.addEventListener("contextmenu", function (event) {
 
 // Evento click para activar solo una infomacion y desactivar las demas.
 sobreMi.addEventListener("click", (event) => {
-  sobreMi.style.fontSize = "50px";
-  titulos.style.fontSize = "30px";
-  proyectos.style.fontSize = "30px";
+  sobreMi.style.fontSize = "40px";
+  titulos.style.fontSize = "25px";
+  proyectos.style.fontSize = "25px";
 
   info1.style.display = "block";
   info2.style.display = "none";
@@ -24,9 +24,9 @@ sobreMi.addEventListener("click", (event) => {
 
 // Lo mismo de arriba.
 titulos.addEventListener("click", (event) => {
-  sobreMi.style.fontSize = "30px";
-  titulos.style.fontSize = "50px";
-  proyectos.style.fontSize = "30px";
+  sobreMi.style.fontSize = "25px";
+  titulos.style.fontSize = "40px";
+  proyectos.style.fontSize = "25px";
 
   info2.style.display = "block";
   info1.style.display = "none";
@@ -35,9 +35,9 @@ titulos.addEventListener("click", (event) => {
 
 // Lo mismo de arriba.
 proyectos.addEventListener("click", (event) => {
-  sobreMi.style.fontSize = "30px";
-  titulos.style.fontSize = "30px";
-  proyectos.style.fontSize = "50px";
+  sobreMi.style.fontSize = "25px";
+  titulos.style.fontSize = "25px";
+  proyectos.style.fontSize = "40px";
 
   info3.style.display = "block";
   info1.style.display = "none";
