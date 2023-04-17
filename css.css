@@ -3,6 +3,17 @@ body {
   margin: 0;
   user-select: none;
   justify-content: space-between;
+
+  overflow: hidden;
+}
+
+.imagen {
+  justify-content: space-between;
+  width: 150px;
+  height: 150px;
+  display: grid;
+  place-content: center;
+  margin: 25px auto 0px auto;
 }
 
 .header {
@@ -12,7 +23,7 @@ body {
   justify-content: space-between;
   width: 80%;
   border-radius: 20px 20px 0 0;
-  height: 100px;
+  height: 70px;
   background-color: #101010;
   overflow: hidden;
   border-bottom: 3px solid rgb(46, 46, 46);
@@ -21,54 +32,42 @@ body {
 .texto {
   font-family: Georgia, "Times New Roman", Times, serif;
   color: white;
-  font-size: 40px;
+  font-size: 30px;
   transition: 0.2s;
-}
-.imagen {
-  justify-content: space-between;
-  width: 200px;
-  height: 200px;
-  display: grid;
-  place-content: center;
-  margin: 25px auto 0px auto;
 }
 
 .sobreMi {
   cursor: pointer;
-  width: auto;
   display: grid;
   place-content: center;
-  margin: auto 250px;
-  justify-content: left;
+  margin: auto;
+  justify-content: center;
 }
 
 .titulos {
   cursor: pointer;
-  height: 90px;
   display: grid;
   place-content: center;
+  margin: auto;
   justify-content: center;
 }
 
 .proyectos {
   cursor: pointer;
-  height: 90px;
   display: grid;
-  margin: auto 250px;
   place-content: center;
-  justify-content: right;
+  margin: auto;
+  justify-content: center;
 }
 
 .contenido {
   display: flex;
-  margin: 0 auto 80px auto;
+  margin: 0 auto 40px auto;
   width: 80%;
-  height: 900px;
+  height: 600px;
   border-radius: 0 0 30px 30px;
   overflow: hidden;
-  font-size: 35px;
-  transition: 1s;
-  scale: 1;
+  font-size: 25px;
 }
 
 ::-webkit-scrollbar {
@@ -87,7 +86,7 @@ body {
 h1 {
   color: white;
   margin: 20px auto;
-  font-size: 40px;
+  font-size: 35px;
   margin-bottom: 0;
 }
 
@@ -97,10 +96,11 @@ h1 {
   text-align: center;
   margin: 0 auto;
   width: 100%;
-  height: 1000px;
+  height: auto;
   background-color: #101010;
   justify-content: center;
   overflow: auto;
+  scroll-behavior: smooth;
 }
 
 .info2 {
@@ -109,9 +109,10 @@ h1 {
   margin: 0 auto;
   text-align: center;
   width: 100%;
-  height: 1000px;
+  height: auto;
   background-color: #101010;
   overflow: auto;
+  scroll-behavior: smooth;
 }
 .info3 {
   color: white;
@@ -119,7 +120,7 @@ h1 {
   margin: 0 auto;
   text-align: center;
   width: 100%;
-  height: 1000px;
+  height: auto;
   background-color: #101010;
   overflow: auto;
   scroll-behavior: smooth;
@@ -127,8 +128,8 @@ h1 {
 
 .izq {
   text-align: left;
-  margin-left: 150px;
-  margin-bottom: 40px;
+  margin-left: 100px;
+  overflow: hidden;
 }
 
 span {
@@ -142,9 +143,10 @@ span {
 
 .descarga {
   width: 100%;
-  height: 200px;
+  height: 100px;
   text-align: center;
   justify-content: center;
+  margin: 0 auto 0 auto;
 }
 
 a {
