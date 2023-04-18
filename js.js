@@ -6,6 +6,7 @@ const proyectos = document.querySelector(".proyectos");
 const info1 = document.querySelector(".info1");
 const info2 = document.querySelector(".info2");
 const info3 = document.querySelector(".info3");
+const contenido = document.querySelector(".contenido");
 
 document.addEventListener("contextmenu", function (event) {
   event.preventDefault();
@@ -17,6 +18,7 @@ sobreMi.addEventListener("click", (event) => {
   titulos.style.fontSize = "25px";
   proyectos.style.fontSize = "25px";
 
+  contenido.style.display = "flex";
   info1.style.display = "block";
   info2.style.display = "none";
   info3.style.display = "none";
@@ -28,6 +30,7 @@ titulos.addEventListener("click", (event) => {
   titulos.style.fontSize = "40px";
   proyectos.style.fontSize = "25px";
 
+  contenido.style.display = "flex";
   info2.style.display = "block";
   info1.style.display = "none";
   info3.style.display = "none";
@@ -39,6 +42,7 @@ proyectos.addEventListener("click", (event) => {
   titulos.style.fontSize = "25px";
   proyectos.style.fontSize = "40px";
 
+  contenido.style.display = "flex";
   info3.style.display = "block";
   info1.style.display = "none";
   info2.style.display = "none";
