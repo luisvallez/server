@@ -172,3 +172,11 @@ a {
   background-color: rgb(255, 255, 116);
   padding: 10px;
 }
+
+iframe {
+  margin-top: 50px;
+  border-radius: 30px;
+  height: 485px;
+  width: 860px;
+  box-shadow: rgba(169, 124, 182, 0.473) 0px 0px 30px 0px;
+}
